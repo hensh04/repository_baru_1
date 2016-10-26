@@ -18,7 +18,7 @@ Public Class Entry_Data_Obat
     End Sub
 
     Private Sub Entry_Data_Obat_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        vbukaConn()
+        bukaConn()
         txtKdObat.Text = objobat.autonumber()
         cmbJnsObat.Text = "--Pilih--"
     End Sub
