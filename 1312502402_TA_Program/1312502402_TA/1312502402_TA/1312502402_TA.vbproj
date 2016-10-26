@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0428ADCA-40CD-44BF-9C1A-174AACB87ABC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>_1312502402_TA.My.MyApplication</StartupObject>
+    <RootNamespace>_1312502402_TA</RootNamespace>
+    <AssemblyName>1312502402_TA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>1312502402_TA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>1312502402_TA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar.Design, Version=11.2.0.1, Culture=neutral, PublicKeyToken=2c9ff1fddc42653c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Keyboard, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout, Version=12.2.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Layout.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Layout.Design, Version=12.2.0.0, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Layout.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.Schedule, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.Schedule.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.2.0.1, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation, Version=11.2.0.1, Culture=neutral, PublicKeyToken=bc4a9d761ea44ef0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.Instrumentation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.Instrumentation.Design, Version=11.2.0.1, Culture=neutral, PublicKeyToken=30cefae8f341f577, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.Instrumentation.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.SuperGrid.Design, Version=11.2.0.1, Culture=neutral, PublicKeyToken=1fea3f5d8d482bff, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.SuperGrid.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=11.2.0.1, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.TreeGX.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cetakan\CKwitansi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CKwitansi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CLPemeriksaanPasien.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CLPemeriksaanPasien.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CLPendapatan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CLPendapatan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CLRekapObatYangSeringDipesan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CLRekapObatYangSeringDipesan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CLResep.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CLResep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CLRujukan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CLRujukan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CNota.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CNota.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CPasien.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CPasien.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CRKwintansi.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRKwintansi.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CSKRujukan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSKRujukan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CSKSakit.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSKSakit.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\CSKSehat.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CSKSehat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cetakan\TampilCetakan.Designer.vb">
+      <DependentUpon>TampilCetakan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cetakan\TampilCetakan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class\ClsDokter.vb" />
+    <Compile Include="Class\ClsObat.vb" />
+    <Compile Include="Class\ClsPasien.vb" />
+    <Compile Include="Class\ClsPetugas.vb" />
+    <Compile Include="Class\ClsTindakan.vb" />
+    <Compile Include="Class\ClsKartu_Status.vb" />
+    <Compile Include="Class\ClsPendaftaran.vb" />
+    <Compile Include="Class\ClsKwitansi.vb" />
+    <Compile Include="Class\ClsNota.vb" />
+    <Compile Include="Class\ClsResep.vb" />
+    <Compile Include="Class\ClsSurat_Rujukan.vb" />
+    <Compile Include="Class\ClsSurat_Sakit.vb" />
+    <Compile Include="Class\ClsSurat_Sehat.vb" />
+    <Compile Include="Class\ClsDetil_Nota.vb" />
+    <Compile Include="Class\ClsDetil_Resep.vb" />
+    <Compile Include="Class\ClsDetil_Tindakan.vb" />
+    <Compile Include="Laporan\Cetak_Laporan_Rekapitulasi_Pemakaian_Obat.Designer.vb">
+      <DependentUpon>Cetak_Laporan_Rekapitulasi_Pemakaian_Obat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Rekapitulasi_Pemakaian_Obat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Resep.Designer.vb">
+      <DependentUpon>Cetak_Laporan_Resep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Resep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Pemeriksaan_Pasien.Designer.vb">
+      <DependentUpon>Cetak_Laporan_Pemeriksaan_Pasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Pemeriksaan_Pasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Pendapatan.Designer.vb">
+      <DependentUpon>Cetak_Laporan_Pendapatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Pendapatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Rujukan_Pasien.Designer.vb">
+      <DependentUpon>Cetak_Laporan_Rujukan_Pasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Laporan\Cetak_Laporan_Rujukan_Pasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login dan Profil\Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login dan Profil\Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login dan Profil\profil.Designer.vb">
+      <DependentUpon>profil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login dan Profil\profil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Dokter.Designer.vb">
+      <DependentUpon>Entry_Data_Dokter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Dokter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Obat.Designer.vb">
+      <DependentUpon>Entry_Data_Obat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Obat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Pasien.Designer.vb">
+      <DependentUpon>Entry_Data_Pasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Pasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Petugas.Designer.vb">
+      <DependentUpon>Entry_Data_Petugas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Petugas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Tindakan.Designer.vb">
+      <DependentUpon>Entry_Data_Tindakan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Entry_Data_Tindakan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login dan Profil\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login dan Profil\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuUtama.Designer.vb">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\Module_Koneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PopUp\Popup_Dokter.Designer.vb">
+      <DependentUpon>Popup_Dokter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp\Popup_Dokter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Obat.Designer.vb">
+      <DependentUpon>PopUp_Obat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Obat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp\popup_pasien.Designer.vb">
+      <DependentUpon>popup_pasien.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp\popup_pasien.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Pemeriksaan.Designer.vb">
+      <DependentUpon>PopUp_Pemeriksaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Pemeriksaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Pendaftaran.Designer.vb">
+      <DependentUpon>PopUp_Pendaftaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Pendaftaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Petugas.Designer.vb">
+      <DependentUpon>PopUp_Petugas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Petugas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp\Popup_Resep.Designer.vb">
+      <DependentUpon>Popup_Resep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp\Popup_Resep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Tindakan.Designer.vb">
+      <DependentUpon>PopUp_Tindakan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PopUp\PopUp_Tindakan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surat Keterangan\Cetak_Surat_Keterangan_Sakit.Designer.vb">
+      <DependentUpon>Cetak_Surat_Keterangan_Sakit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Surat Keterangan\Cetak_Surat_Keterangan_Sakit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surat Keterangan\Cetak_Surat_Keterangan_Sehat.Designer.vb">
+      <DependentUpon>Cetak_Surat_Keterangan_Sehat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Surat Keterangan\Cetak_Surat_Keterangan_Sehat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Surat Keterangan\Cetak_Surat_Rujukan.Designer.vb">
+      <DependentUpon>Cetak_Surat_Rujukan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Surat Keterangan\Cetak_Surat_Rujukan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\Cetak_Kwitansi.Designer.vb">
+      <DependentUpon>Cetak_Kwitansi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Cetak_Kwitansi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\Cetak_nota.Designer.vb">
+      <DependentUpon>Cetak_nota.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Cetak_nota.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\Entry_Pemeriksaan.Designer.vb">
+      <DependentUpon>Entry_Pemeriksaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Entry_Pemeriksaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\Entry_Pendaftaran.Designer.vb">
+      <DependentUpon>Entry_Pendaftaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Entry_Pendaftaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaksi\Entry_Resep.Designer.vb">
+      <DependentUpon>Entry_Resep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Transaksi\Entry_Resep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cetakan\CKwitansi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CKwitansi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CLPemeriksaanPasien.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CLPemeriksaanPasien.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CLPendapatan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CLPendapatan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CLRekapObatYangSeringDipesan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CLRekapObatYangSeringDipesan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CLResep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CLResep.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CLRujukan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CLRujukan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CNota.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CNota.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CPasien.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CPasien.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CRKwintansi.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRKwintansi.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CSKRujukan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CSKRujukan.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CSKSakit.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CSKSakit.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\CSKSehat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CSKSehat.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cetakan\TampilCetakan.resx">
+      <DependentUpon>TampilCetakan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\Cetak_Laporan_Pemeriksaan_Pasien.resx">
+      <DependentUpon>Cetak_Laporan_Pemeriksaan_Pasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\Cetak_Laporan_Pendapatan.resx">
+      <DependentUpon>Cetak_Laporan_Pendapatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\Cetak_Laporan_Rekapitulasi_Pemakaian_Obat.resx">
+      <DependentUpon>Cetak_Laporan_Rekapitulasi_Pemakaian_Obat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\Cetak_Laporan_Resep.resx">
+      <DependentUpon>Cetak_Laporan_Resep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Laporan\Cetak_Laporan_Rujukan_Pasien.resx">
+      <DependentUpon>Cetak_Laporan_Rujukan_Pasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login dan Profil\Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login dan Profil\profil.resx">
+      <DependentUpon>profil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Entry_Data_Dokter.resx">
+      <DependentUpon>Entry_Data_Dokter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Entry_Data_Obat.resx">
+      <DependentUpon>Entry_Data_Obat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Entry_Data_Pasien.resx">
+      <DependentUpon>Entry_Data_Pasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Entry_Data_Petugas.resx">
+      <DependentUpon>Entry_Data_Petugas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Entry_Data_Tindakan.resx">
+      <DependentUpon>Entry_Data_Tindakan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login dan Profil\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuUtama.resx">
+      <DependentUpon>MenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp\Popup_Dokter.resx">
+      <DependentUpon>Popup_Dokter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp\PopUp_Obat.resx">
+      <DependentUpon>PopUp_Obat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp\popup_pasien.resx">
+      <DependentUpon>popup_pasien.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp\PopUp_Pemeriksaan.resx">
+      <DependentUpon>PopUp_Pemeriksaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp\PopUp_Pendaftaran.resx">
+      <DependentUpon>PopUp_Pendaftaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp\PopUp_Petugas.resx">
+      <DependentUpon>PopUp_Petugas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp\Popup_Resep.resx">
+      <DependentUpon>Popup_Resep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopUp\PopUp_Tindakan.resx">
+      <DependentUpon>PopUp_Tindakan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Surat Keterangan\Cetak_Surat_Keterangan_Sakit.resx">
+      <DependentUpon>Cetak_Surat_Keterangan_Sakit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Surat Keterangan\Cetak_Surat_Keterangan_Sehat.resx">
+      <DependentUpon>Cetak_Surat_Keterangan_Sehat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Surat Keterangan\Cetak_Surat_Rujukan.resx">
+      <DependentUpon>Cetak_Surat_Rujukan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\Cetak_Kwitansi.resx">
+      <DependentUpon>Cetak_Kwitansi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\Cetak_nota.resx">
+      <DependentUpon>Cetak_nota.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\Entry_Pemeriksaan.resx">
+      <DependentUpon>Entry_Pemeriksaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\Entry_Pendaftaran.resx">
+      <DependentUpon>Entry_Pendaftaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaksi\Entry_Resep.resx">
+      <DependentUpon>Entry_Resep.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class\ClassDiagram_Klinik.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_1312502402_TA.ClsPasien">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACgAEAIggKQACABIAEAQABgACQAAAAAAAALCMAigA=</HashCode>
+      <FileName>Class\ClsPasien.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsDokter">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEAIAwIAACABAIAAQABgACAAgAAAAAAJAMQCAA=</HashCode>
+      <FileName>Class\ClsDokter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsObat">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgAAAEAICwIAAQAgAAACAAAABCAAAAAABAAQgEBAAA=</HashCode>
+      <FileName>Class\ClsObat.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsPetugas">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAIAhIAACABAABAQADgACAAAAAAAAAJAMACAA=</HashCode>
+      <FileName>Class\ClsPetugas.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsTindakan">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQIBgIQAAAAAAAAAAAAACAAAAIAAAAAAEAQgA=</HashCode>
+      <FileName>Class\ClsTindakan.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsPendaftaran">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAEAAgAIAACIIAYAAACCAgCAAAAAAoAADCEAAAE=</HashCode>
+      <FileName>Class\ClsPendaftaran.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsKartu_Status">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAEMAgAIAABAIAAAIACAgACAAACAAhIACCAAAAA=</HashCode>
+      <FileName>Class\ClsKartu_Status.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsResep">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEAAAAIAAAAAAAAAACAIAiAAAAAAAAAACkAAAA=</HashCode>
+      <FileName>Class\ClsResep.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsNota">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEABAAIAAAAAAAAAAQAABmAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Class\ClsNota.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsKwitansi">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAIAAAAAAAAAACAAQCAAEAACCIAQCEAAAA=</HashCode>
+      <FileName>Class\ClsKwitansi.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsSurat_Rujukan">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAAAAoAAgAAAAAAACBABCAAAACAAAEACEEAAA=</HashCode>
+      <FileName>Class\ClsSurat_Rujukan.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsSurat_Sakit">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAAAAIAAAAAAAACACCAACAAAACAAAAACEAIAA=</HashCode>
+      <FileName>Class\ClsSurat_Sakit.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsSurat_Sehat">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAEAAAAIAAAAAQAAAACAAADAAAECAAAAACEAQAA=</HashCode>
+      <FileName>Class\ClsSurat_Sehat.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsDetil_Tindakan">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEQAAAIAIACAAAAAACAAACAAAAAAAAAACggQAA=</HashCode>
+      <FileName>Class\ClsDetil_Tindakan.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsDetil_Resep">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACEAAAQIAAAAAAAAAAQAAQiAAAAAQBABAAAAAAA=</HashCode>
+      <FileName>Class\ClsDetil_Resep.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1312502402_TA.ClsDetil_Nota">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAEAEABAQIAAAAAAAAAAAAABDAAAAgABAAAAAAAAA=</HashCode>
+      <FileName>Class\ClsDetil_Nota.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
